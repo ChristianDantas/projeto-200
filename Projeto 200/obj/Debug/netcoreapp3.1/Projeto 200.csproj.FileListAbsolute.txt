@@ -11,3 +11,16 @@ C:\Users\288\Desktop\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.csproj.Core
 C:\Users\288\Desktop\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.dll
 C:\Users\288\Desktop\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.pdb
 C:\Users\288\Desktop\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.genruntimeconfig.cache
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\bin\Debug\netcoreapp3.1\Projeto 200.exe
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\bin\Debug\netcoreapp3.1\Projeto 200.deps.json
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\bin\Debug\netcoreapp3.1\Projeto 200.runtimeconfig.json
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\bin\Debug\netcoreapp3.1\Projeto 200.runtimeconfig.dev.json
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\bin\Debug\netcoreapp3.1\Projeto 200.dll
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\bin\Debug\netcoreapp3.1\Projeto 200.pdb
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.csprojAssemblyReference.cache
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.AssemblyInfoInputs.cache
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.AssemblyInfo.cs
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.csproj.CoreCompileInputs.cache
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.dll
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.pdb
+C:\Users\288\Desktop\projeto 200\projeto-200\Projeto 200\obj\Debug\netcoreapp3.1\Projeto 200.genruntimeconfig.cache

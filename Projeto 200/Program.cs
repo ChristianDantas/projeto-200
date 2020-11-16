@@ -15,18 +15,6 @@ namespace Projeto_200
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
            Console.WriteLine("Olá, gostaria de jogar um rpg?");
            string resposta1= Console.ReadLine();
            if(resposta1=="sim"){
@@ -38,7 +26,7 @@ namespace Projeto_200
                    Console.WriteLine("você tem apenas: uma vestimenta de mago simples e  uma varinha com apenas 1 magia e ela é a bola de fogo pequena");
                    Console.WriteLine("vamos jogar!");
                     Console.WriteLine("-------------------------------------------------------------");
-                   Console.WriteLine("você esta em sua casa, tranquilamente, quando servos do senhor feudal que mora ao lado da sua casa decidem invadir a sua vila");
+                   Console.WriteLine("você esta em sua casa em uma manha tranquila, quando servos do senhor feudal que mora ao lado da sua casa decidem invadir a sua vila");
                    Console.WriteLine("você gostaria de: [l] lutar contra eles | [f]fugir");
                   string escolham1= Console.ReadLine();
 
@@ -125,7 +113,7 @@ namespace Projeto_200
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
                                             Console.WriteLine("-------------------------------------------------------------");
                                     }
-                                    if(escolhamfinal=="nao"){
+                                   else if(escolhamfinal=="nao"){
                                        Console.WriteLine("entao voce sai do reino e vai para sua casa continuar seu descanço"); 
                                          Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -135,7 +123,7 @@ namespace Projeto_200
                                         Console.WriteLine("error 508: resposta invalida."); 
                                     }
                                 }
-                                 if(respostafinal=="a"){
+                                 else if(respostafinal=="a"){
                                       Console.WriteLine("parabens, voce derrotou o senhor feudal");
                                     Console.WriteLine("todos os guardas estao aos seus pés dizendo que por voce derrotar o senhor feudal, voce devera se tornar um");
                                     Console.WriteLine("voce gostaria de se tornar o mestre feudal?");
@@ -146,7 +134,7 @@ namespace Projeto_200
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
                                             Console.WriteLine("-------------------------------------------------------------");
                                     }
-                                    if(escolhamfinal2=="nao"){
+                                    else if(escolhamfinal2=="nao"){
                                        Console.WriteLine("entao voce sai do reino e vai para sua casa continuar seu descanço"); 
                                          Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -165,7 +153,7 @@ namespace Projeto_200
                                 break;
                            }
                                    }
-                                   if(respostam4=="a"){
+                                   else if(respostam4=="a"){
                                         Console.WriteLine("entao a magia de trovão o acerta e te incinera");
                                              Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -190,7 +178,7 @@ namespace Projeto_200
 
                                         }
 
-                                        if(escolham4=="nao"){
+                                        else if(escolham4=="nao"){
                                             Console.WriteLine("senhor feudal- tudo bem entao, pode ir embora");
                                             Console.WriteLine("quando você esta passando pela porta vem raio em suas costas e te incinera");
                                              Console.WriteLine("-------------------------------------------------------------");
@@ -208,7 +196,7 @@ namespace Projeto_200
                                         break;
                                     }
                                }
-                               if(escolham3== "nao"){
+                               else if(escolham3== "nao"){
                                    Console.WriteLine("entao voce vai para sua casa e volta a dormir tranquilamente");
                                    Console.WriteLine("-------------------------------------------------------------");
                                     Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -234,7 +222,7 @@ namespace Projeto_200
                     
 
                        }
-                       if(escolham2=="nao"){
+                       else if(escolham2=="nao"){
                             Console.WriteLine("entao os servos te matam por estar no caminho deles");
                                          Console.WriteLine("-------------------------------------------------------------");
                                         Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -246,7 +234,7 @@ namespace Projeto_200
                        }
                   }
 
-                  if(escolham1=="f"){
+                  else if(escolham1=="f"){
                         Console.WriteLine("quando voce esta fugindo, alguns dos servos te puxam e te matam");
                         Console.WriteLine("-------------------------------------------------------------");
                         Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -359,7 +347,7 @@ namespace Projeto_200
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
                                             Console.WriteLine("-------------------------------------------------------------");
                                         }
-                                         if(escolhamfinal=="nao"){
+                                         else if(escolhamfinal=="nao"){
                                              Console.WriteLine("entao voce sai do reino e vai para sua casa continuar seu descanço"); 
                                          Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -380,7 +368,7 @@ namespace Projeto_200
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
                                             Console.WriteLine("-------------------------------------------------------------");
                                     }
-                                    if(escolhamfinal2=="nao"){
+                                   else if(escolhamfinal2=="nao"){
                                        Console.WriteLine("entao voce sai do reino e vai para sua casa continuar seu descanço"); 
                                          Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -399,7 +387,7 @@ namespace Projeto_200
                                 break;
                            }
                                    }
-                                   if(respostam4=="a"){
+                                   else if(respostam4=="a"){
                                         Console.WriteLine("entao ele acerta o ataque e te mata");
                                              Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -424,7 +412,7 @@ namespace Projeto_200
 
                                         }
 
-                                        if(escolham4=="nao"){
+                                       else if(escolham4=="nao"){
                                             Console.WriteLine("senhor feudal- tudo bem entao, pode ir embora");
                                             Console.WriteLine("quando você esta passando pela porta ele te ataca e te mata");
                                              Console.WriteLine("-------------------------------------------------------------");
@@ -442,7 +430,7 @@ namespace Projeto_200
                                         break;
                                     }
                                }
-                               if(escolham3== "nao"){
+                               else if(escolham3== "nao"){
                                    Console.WriteLine("entao voce vai para sua casa e volta a dormir tranquilamente");
                                    Console.WriteLine("-------------------------------------------------------------");
                                     Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -468,7 +456,7 @@ namespace Projeto_200
                     
 
                        }
-                       if(escolham2=="nao"){
+                        else if(escolham2=="nao"){
                             Console.WriteLine("entao os servos te matam por estar no caminho deles");
                                          Console.WriteLine("-------------------------------------------------------------");
                                         Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -480,7 +468,7 @@ namespace Projeto_200
                        }
                   }
 
-                  if(escolhab1=="f"){
+                   else if(escolhab1=="f"){
                         Console.WriteLine("quando voce esta fugindo, alguns dos servos te puxam e te matam");
                         Console.WriteLine("-------------------------------------------------------------");
                         Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -497,7 +485,6 @@ namespace Projeto_200
 
                    case 'a':
                    Console.WriteLine("você tem apenas: um arco e  20 flechas");
-                   Console.WriteLine("você tem apenas:vestimenta de guerreiro simples e uma espada simples");
                      Console.WriteLine("vamos jogar!");
                     Console.WriteLine("-------------------------------------------------------------");
                    Console.WriteLine("você esta em sua casa, tranquilamente, quando servos do senhor feudal que mora ao lado da sua casa decidem invadir a sua vila");
@@ -588,7 +575,7 @@ namespace Projeto_200
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
                                             Console.WriteLine("-------------------------------------------------------------");
                                         }
-                                         if(escolhamfinal=="nao"){
+                                         else if(escolhamfinal=="nao"){
                                              Console.WriteLine("entao voce sai do reino e vai para sua casa continuar seu descanço"); 
                                          Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -598,7 +585,7 @@ namespace Projeto_200
                                         Console.WriteLine("error 508: resposta invalida."); 
                                     }
                                 }
-                                 if(respostafinal=="a"){
+                                  else if(respostafinal=="a"){
                                       Console.WriteLine("parabens, voce derrotou o senhor feudal");
                                     Console.WriteLine("todos os guardas estao aos seus pés dizendo que por voce derrotar o senhor feudal, voce devera se tornar um");
                                     Console.WriteLine("voce gostaria de se tornar o mestre feudal?");
@@ -609,7 +596,7 @@ namespace Projeto_200
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
                                             Console.WriteLine("-------------------------------------------------------------");
                                     }
-                                    if(escolhamfinal2=="nao"){
+                                     else if(escolhamfinal2=="nao"){
                                        Console.WriteLine("entao voce sai do reino e vai para sua casa continuar seu descanço"); 
                                          Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -628,7 +615,7 @@ namespace Projeto_200
                                 break;
                            }
                                    }
-                                   if(respostam4=="a"){
+                                    else if(respostam4=="a"){
                                         Console.WriteLine("entao ele acerta a flecha e te mata");
                                              Console.WriteLine("-------------------------------------------------------------");
                                             Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -653,7 +640,7 @@ namespace Projeto_200
 
                                         }
 
-                                        if(escolham4=="nao"){
+                                       else if(escolham4=="nao"){
                                             Console.WriteLine("senhor feudal- tudo bem entao, pode ir embora");
                                             Console.WriteLine("quando você esta passando pela porta ele te mata com uma flecha");
                                              Console.WriteLine("-------------------------------------------------------------");
@@ -671,7 +658,7 @@ namespace Projeto_200
                                         break;
                                     }
                                }
-                               if(escolham3== "nao"){
+                                else if(escolham3== "nao"){
                                    Console.WriteLine("entao voce vai para sua casa e volta a dormir tranquilamente");
                                    Console.WriteLine("-------------------------------------------------------------");
                                     Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -697,7 +684,7 @@ namespace Projeto_200
                     
 
                        }
-                       if(escolham2=="nao"){
+                      else if(escolham2=="nao"){
                             Console.WriteLine("entao os servos te matam por estar no caminho deles");
                                          Console.WriteLine("-------------------------------------------------------------");
                                         Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");
@@ -709,7 +696,7 @@ namespace Projeto_200
                        }
                   }
 
-                  if(escolhaa1=="f"){
+                   else if(escolhaa1=="f"){
                         Console.WriteLine("quando voce esta fugindo, alguns dos servos te puxam e te matam");
                         Console.WriteLine("-------------------------------------------------------------");
                         Console.WriteLine("|||||||||||||||||||||||||||| FIM ||||||||||||||||||||||||||||");

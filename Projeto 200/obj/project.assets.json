@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\288\\Desktop\\Projeto 200\\Projeto 200.csproj",
+      "projectUniqueName": "C:\\Users\\288\\Desktop\\projeto 200\\projeto-200\\Projeto 200\\Projeto 200.csproj",
       "projectName": "Projeto 200",
-      "projectPath": "C:\\Users\\288\\Desktop\\Projeto 200\\Projeto 200.csproj",
+      "projectPath": "C:\\Users\\288\\Desktop\\projeto 200\\projeto-200\\Projeto 200\\Projeto 200.csproj",
       "packagesPath": "C:\\Users\\288\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\288\\Desktop\\Projeto 200\\obj\\",
+      "outputPath": "C:\\Users\\288\\Desktop\\projeto 200\\projeto-200\\Projeto 200\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\288\\AppData\\Roaming\\NuGet\\NuGet.Config"
